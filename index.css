@@ -1,3 +1,101 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* header */
+.header {
+    display: flex;
+    width: 1440px;
+}
+
+
+.heading {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 200px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.nav {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 516px;
+    display: flex;
+}
+
+.nav_link {
+    margin-left: 80px;
+
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* main */
+
+.main{
+    padding: 0 200px;
+
+    display: block;
+    width: 1440px;
+}
+
+.hero {
+    margin-top: 73px;
+    margin-bottom: 160px;
+}
+
+.hero__heading {
+    font-size: 48px;
+    line-height: 63px;
+    font-weight: 400;
+    letter-spacing: -0.02em
+}
+
+.title {
+    color: #007fef;
+}
+
+.hero__paragraph {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: -0.02em
+}
+
+.hero__button {
+    background-color: #000000;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #ffffff;
 }
