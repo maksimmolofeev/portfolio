@@ -20,12 +20,17 @@ ol, ul {
 
 
 body {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
 }
 
 /* header */
 .header {
+    padding: 0 200px;
+
     display: flex;
     width: 1440px;
 }
@@ -34,7 +39,7 @@ body {
 .heading {
     margin-top: 32px;
     margin-bottom: 32px;
-    margin-left: 200px;
+    margin-right: 586px;
 
     font-size: 24px;
     line-height: 36px;
@@ -44,17 +49,21 @@ body {
 .nav {
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 516px;
     display: flex;
 }
 
 .nav_link {
-    margin-left: 80px;
+    margin-right: 80px;
 
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
     text-decoration: none;
+    color: #000000;
+}
+
+.nav_link:hover {
+    color: #ffa500;
 }
 
 /* main */
@@ -93,9 +102,330 @@ body {
 }
 
 .hero__button {
-    background-color: #000000;
     font-size: 20px;
     line-height: 27px;
     font-weight: 400;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.project_list {
+    display: block;
+}
+
+.line {
+    width: 1040px;
+    margin-bottom: 60px;
+}
+
+.project_header {
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.project_heading {
+    margin-right: 847px;
+    display: block;
+}
+
+.project_title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+    letter-spacing: -0.02em
+}
+
+.project_subtitle {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: -0.02em
+}
+
+.arrow {
+    margin-top: 20px;
+    width: 48px;
+    height: 30px;
+}
+
+.project_img {
+    margin-bottom: 60px;
+    width: 1040px;
+}
+
+.about {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.info {
+    width: 508px;
+    margin-right: 130px;
+}
+
+.info_title {
+    margin-bottom: 40px;
+
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: -0.02em
+}
+
+.info_subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: -0.02em
+}
+
+.avatar {
+    margin-bottom: 60px;
+    width: 330px;
+}
+
+.resume {
+    margin-bottom: 76px;
+    display: block;
+}
+
+.block_name {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.block_title {
+    margin-right: 741px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.resume_button {
+    width: 123px;
+    height: 58px;
+    text-align: center;
+    text-decoration: none;
+
+    padding-top: 19px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.resume_line {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.resume_title_experience {
+    margin-right: 136px;
+    margin-bottom: 166px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.resume_title_education {
+    margin-right: 146px;
+    margin-bottom: 166px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.resume_frame {
+    display: flex;
+}
+
+
+.experience_heading {
+    margin-right: 567px;
+
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.education_heading {
+    margin-right: 493px;
+
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.resume_subtitle {
+    margin-bottom: 12px;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+
+.resume_date {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.resume_text {
+    margin-right: 230px;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.resume_title_skills {
+    margin-right: 198px;
+    margin-bottom: 52px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.resume_title_tools {
+    margin-right: 195px;
+    margin-bottom: 28px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.resume_title_contact {
+    margin-right: 168px;
+    margin-bottom: 64px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.resume_description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.resume_contact {
+    display: block;
+}
+
+.phone_number {
+    margin-top: 8px;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.email {
+    margin-top: 12px;
+    margin-bottom: 32px;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.go_top {
+    margin-left: 443px;
+    margin-bottom: 76px;
+    display: flex;
+
+}
+
+.arrow_vertikal{
+    margin-right: 16px;
+}
+
+.go_top_text {
+    margin-top: 6px;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.go_top_text:hover {
+    color: #ffa500;
+}
+
+/* footer */
+
+.footer {
+    padding: 80px 200px;
+
+    display: block;
+    width: 1440px;
+
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_text {
+    margin-bottom: 24px;
+
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.footer_top {
+    margin-bottom: 40px;
+}
+
+.lets_connect {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.networks {
+
+}
+
+.networks_link {
+    margin-right: 32px;
+
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-decoration: none;
     color: #ffffff;
 }
