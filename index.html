@@ -8,34 +8,41 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2?family= Poppins & display семья = Поппинс: вес @ 400; 700 & swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= Poppins & display семья = Поппинс: вес @ 400; 500; 600; 700 & swap" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <header class="header">
+<body class="body">
+    <header id="top"  class="header">
             <h1 class="heading">Designer</h1>
             <nav class="nav">
-                <a class="nav_link" href="#">Work</a>
-                <a class="nav_link" href="#">About</a>
-                <a class="nav_link" href="#">Resume</a>
+                <a class="nav_link" href="#work">Work</a>
+                <a class="nav_link" href="#about">About</a>
+                <a class="nav_link" href="#resume">Resume</a>
             </nav>
     </header>
 
     <main class="main">
 
         <div class="hero">
-            <p class="hero__heading">Hi, I'm John Doe. <br> <strong class="title"> UX Designer</strong> based in Delhi, India</p>
+            <p class="hero__heading">Hi, I'm John Doe.</p>
+            <p class="hero__heading"><strong class="title"> UX Designer</strong> based in Delhi, India</p>
             <p class="hero__paragraph" >Product Design intern at <strong>Google</strong></p>
             <button class="hero__button"> My Resume ↗ </button>
         </div>
         
-        <div class="main__netflix_app">
-            <hr class="main__line">
-            <p>UX Case Study</p>s
-            <p class="main__text">Netflix App</p>
-            <img src="images/Mask_group.png" alt="Mask proup">
-            <div>
+        <div id="work" class="project_list">
+            <hr>
+            <div class="project_header">
+                <div class="project_heading">
+                    <p class="project_title">UX Case Study</p>
+                    <p class="project_subtitle">Netflix App</p>
+                </div>
+                <div class="arrow">
+                    <img src="images/Mask_group.png" alt="Mask proup">
+                </div>
+            </div>
+            <div class="project_img">
                 <img 
                     srcset="images/Netflix_App.jpg,
                             images/Netflix_App@2x.jpg 2x"
@@ -43,12 +50,19 @@
                     alt="Netflix App">
             </div>
         </div>
-        <div class="main__spotify_UX">
-            <hr class="main__line">
-            <p>UX Case Study</p>
-            <p class="main__text">Spotify UX</p>
-            <img src="images/Mask_group.png" alt="Mask proup">
-            <div>
+
+        <div class="project_list">
+            <hr class="line">
+            <div class="project_header">
+                <div class="project_heading">
+                    <p class="project_title">UX Case Study</p>
+                    <p class="project_subtitle">Spotify UX</p>
+                </div>
+                <div class="arrow">
+                    <img src="images/Mask_group.png" alt="Mask proup">
+                </div>
+            </div>
+            <div class="project_img">
                 <img 
                     srcset="images/Spotify_UX.jpg,
                             images/Spotify_UX@2x.jpg 2x"
@@ -56,12 +70,19 @@
                     alt="Spotify UX">
             </div>
         </div>
-        <div class="main__facebook">
-            <hr class="main__line">
-            <p>UX Case Study</p>
-            <p class="main__text">Facebook</p>
-            <img src="images/Mask_group.png" alt="Mask proup">
-            <div>
+
+        <div class="project_list">
+            <hr class="line">
+            <div class="project_header">
+                <div class="project_heading">
+                    <p class="project_title">UX Case Study</p>
+                    <p class="project_subtitle">Facebook</p>
+                </div>
+                <div class="arrow">
+                    <img src="images/Mask_group.png" alt="Mask proup">
+                </div>
+            </div>
+            <div class="project_img">
                 <img 
                     srcset="images/Facebook.jpg,
                             images/Facebook@2x.jpg 2x"
@@ -69,26 +90,94 @@
                     alt="Facebook">
             </div>
         </div>
-        <div>
-            <p>Hi, I'm John Doe. UX Designer based in Delhi, India</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit varius massa cursus laoreet suspendisse ac nisl in pulvinar. Auctor integer pellentesque nunc ut at penatibus </p>
-            <div>
+
+        <div id="about" class="about">
+            <div class="info">
+                <p class="info_title">Hi, I'm John Doe. <span class="title">UX Designer</span> based in Delhi, India</p>
+                <p class="info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit varius massa cursus laoreet suspendisse ac nisl in pulvinar. Auctor integer pellentesque nunc ut at penatibus viverra risus nisl. Sapien nibh interdum tellus sapien et tortor, commodo. Dolor urna pharetra, nulla et morbi sed ornare. Sed condimentum urna pharetra id in enim nunc. Mi ut etiam vel.</p>
+            </div>
+            <div class="avatar">
                 <img 
-                    srcset="images/photo.jpg,
-                            images/photo@2x.jpg 2x"
-                    src="images/photo.jpg"
-                    alt="My photo">
+                    srcset="images/Avatar.jpg,
+                            images/Avatar@2x.jpg 2x"
+                    src="images/Avatar.jpg"
+                    alt="Avatar">
             </div>
         </div>
+
+        <div id="resume" class="resume">
+            <div class="block_name">
+                <p class="block_title">Resume</p>
+                <a  class="resume_button" href="#" download>PDF ↗</a>
+            </div>
+
+            <div class="resume_line">
+                <p class="resume_title_experience">Experience</p>
+                <div>
+                    <div class="resume_frame">
+                        <div>
+                            <p class="experience_heading">Google</p>
+                            <p class="resume_subtitle">UX Design Intern</p>
+                        </div>
+                        <p class="resume_date">May 2022 - Present</p>
+                    </div>
+                    <p class="resume_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed ac orci, et in. Massa egestas eu, augue eget lorem ullamcorper blandit. Dui, semper elementum volutpat non vulputate ultrices sed. </p>
+                </div>
+            </div>
+
+            <div class="resume_line">
+                <p class="resume_title_education">Education</p>
+                <div>
+                    <div class="resume_frame">
+                        <div>
+                            <p class="education_heading">Univesity Name</p>
+                            <p class="resume_subtitle">Course Take</p>
+                        </div>
+                        <p class="resume_date">May 2022 - Present</p>
+                    </div>
+                    <p class="resume_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed ac orci, et in. Massa egestas eu, augue eget lorem ullamcorper blandit. Dui, semper elementum volutpat non vulputate ultrices sed. </p>
+                </div>
+            </div>
+
+            <div class="resume_line">
+                <p class="resume_title_skills">Skills</p>
+                <p class="resume_description">Interaction Design, Wireframing, Copywriting, User Research, 
+                    Wireframe, Story boarding</p>
+            </div>
+
+            <div class="resume_line">
+                <p class="resume_title_tools">Tools</p>
+                <p  class="resume_description">Sketch, Figma, Photoshop, Invsion, ProtoPie</p>
+            </div>
+
+            <div class="resume_line">
+                <p class="resume_title_contact">Contact</p>
+                <div class="resume_contact">
+                    <p class="phone_number">+91 822 4444 222</p>
+                    <p class="email">email@emailaddress.com</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="go_top">
+            <div class="arrow_vertikal">
+                <img src="images/Mask_group_vertikal.png" alt="Mask proup vertikal">
+            </div>
+            <a class="go_top_text" href="#top">Go to top</a>
+        </div>
+
     </main>
     
-    <footer>
-        <p>Looking for some one to join an awesome venture</p>
-        <a  href="#">Let’s Connect ↗</a>
-        <div>
-            <a  href="#">LinkedIn ↗</a>
-            <a  href="#">Behance ↗</a>
-            <a  href="#">Twitter ↗</a>
+    <footer class="footer">
+        <p class="footer_text">Looking for some one to join an awesome venture</p>
+        <div class="footer_top">
+            <a class="lets_connect" href="#">Let’s Connect ↗</a>
+        </div>
+        <div class="networks">
+            <a class="networks_link" href="#">LinkedIn ↗</a>
+            <a class="networks_link" href="#">Behance ↗</a>
+            <a class="networks_link" href="#">Twitter ↗</a>
         </div>
     </footer>
 
